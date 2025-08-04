@@ -1,0 +1,184 @@
+! Title: Ultimate Ad & Tracking Blocker for Social Media
+! Description: فلتر شامل لحجب الإعلانات والتتبع على منصات التواصل الاجتماعي
+! Version: 2.0
+! Last Modified: 2025-08-04
+! Homepage: https://github.com/adguard
+! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
+! 
+! === TikTok Comprehensive Blocking ===
+! حجب شامل لـ TikTok
+||analytics.tiktok.com^$important
+||ads.tiktok.com^$important
+||test-ads.tiktok.com^$important
+||log.tiktok.com^$important
+||log.tiktokv.com^$important
+||metrics.tiktok.com^$important
+||tracking.tiktok.com^$important
+||open.tiktokapis.com^$important
+||business-api.tiktok.com^$important
+
+! TikTok CDN Tracking
+||p*.tiktokcdn.com^$path=/tracking/*,important
+||sf*.tiktokcdn.com^$path=/analytics/*,important
+||tos-*.tiktok.com^$important
+||tos-*.tiktokcdn.com^$important
+
+! ByteDance (TikTok Parent Company)
+||byteoversea.com^$important
+||byteimg.com^$important
+||bytedance.com^$important
+||pstatp.com^$important
+||snssdk.com^$important
+||amemv.com^$important
+
+! Musical.ly Legacy
+||musical.ly^$important
+||musically.com^$important
+
+! === Snapchat Comprehensive Blocking ===
+! حجب شامل لـ Snapchat
+||tr.snapchat.com^$important
+||app-analytics.snapchat.com^$important
+||ads.snapchat.com^$important
+||business.snapchat.com^$important
+||developers.snap.com^$path=/api/*,important
+
+! Snapchat Pixel & Tracking
+||snapchat.com^$path=/pixel/*,important
+||snapchat.com^$path=/track/*,important
+||snapchat.com^$path=/analytics/*,important
+||snap.com^$path=/pixel/*,important
+
+! === Google Analytics & Ads ===
+! حجب Google التحليلات والإعلانات
+||google-analytics.com^$important
+||googletagmanager.com^$important
+||googlesyndication.com^$important
+||googleadservices.com^$important
+||doubleclick.net^$important
+||doubleclick.com^$important
+
+! === Facebook/Meta Tracking ===
+! حجب Facebook/Meta التتبع
+||facebook.com^$path=/tr/*,important
+||fbcdn.net^$path=/tr/*,important
+||connect.facebook.com^$path=/*/tracking/*,important
+||connect.facebook.net^$path=/*/tracking/*,important
+
+! === Major Ad Networks ===
+! شبكات الإعلانات الرئيسية
+||criteo.com^$important
+||outbrain.com^$important
+||taboola.com^$important
+||adsystem.com^$important
+||adnxs.com^$important
+||amazon-adsystem.com^$important
+||amazoncognito.com^$important
+
+! === Mobile Tracking ===
+! التتبع المحمول
+||appsflyer.com^$important
+||adjust.com^$important
+||branch.io^$important
+||kochava.com^$important
+||singular.net^$important
+
+! === Additional Analytics Tools ===
+! أدوات التحليل الإضافية
+||hotjar.com^$important
+||mixpanel.com^$important
+||segment.com^$important
+||amplitude.com^$important
+
+! Microsoft Bing Ads
+||bing.com^$path=/ads/*,important
+||msn.com^$path=/ads/*,important
+
+! === URL Parameter Removal ===
+! إزالة معاملات التتبع من الروابط
+$removeparam=utm_source
+$removeparam=utm_medium
+$removeparam=utm_campaign
+$removeparam=utm_content
+$removeparam=utm_term
+$removeparam=gclid
+$removeparam=fbclid
+$removeparam=ttclid
+$removeparam=msclkid
+$removeparam=ScCid
+$removeparam=_scid
+$removeparam=snap_ref
+$removeparam=sc_referrer
+$removeparam=tracking_id
+$removeparam=session_id
+$removeparam=visitor_id
+$removeparam=client_id
+$removeparam=affiliate_id
+$removeparam=partner_id
+$removeparam=ref
+$removeparam=source
+$removeparam=medium
+$removeparam=campaign
+
+! === Middle East Specific ===
+! خاص بالمنطقة العربية
+||arabclicks.com^$path=/ads/*,important
+||4sale.com^$path=/track/*,important
+||opensooq.com^$path=/analytics/*,important
+||haraj.com^$path=/ads/*,important
+||noon.com^$path=/track/*,important
+||amazon.ae^$path=/track/*,important
+||souq.com^$path=/analytics/*,important
+
+! === Essential Content Whitelist ===
+! قائمة السماح للمحتوى الأساسي
+@@||tiktok.com^$path=/@*,important
+@@||tiktok.com^$path=/foryou*,important
+@@||tiktok.com^$path=/following*,important
+@@||tiktok.com^$path=/discover*,important
+@@||tiktok.com^$path=/upload*,important
+@@||tiktok.com^$path=/*.mp4,important
+@@||tiktok.com^$path=/*.jpg,important
+@@||tiktok.com^$path=/*.png,important
+@@||tiktok.com^$path=/*.css,important
+@@||tiktok.com^$path=/*.js,important
+
+@@||snapchat.com^$path=/add*,important
+@@||snapchat.com^$path=/discover*,important
+@@||snapchat.com^$path=/map*,important
+@@||snapchat.com^$path=/camera*,important
+@@||snapchat.com^$path=/support*,important
+@@||snapchat.com^$path=/*.jpg,important
+@@||snapchat.com^$path=/*.png,important
+@@||snapchat.com^$path=/*.css,important
+@@||snapchat.com^$path=/*.js,important
+
+! Essential APIs
+@@||api.tiktok.com^$path=/auth/*,important
+@@||api.tiktok.com^$path=/login/*,important
+@@||api.tiktok.com^$path=/content/*,important
+@@||api.snapchat.com^$path=/user/*,important
+@@||api.snapchat.com^$path=/profile/*,important
+@@||api.snapchat.com^$path=/messages/*,important
+
+! CDN Content
+@@||cdn.tiktok.com^$path=/*.css,important
+@@||cdn.tiktok.com^$path=/*.js,important
+@@||cdn.snapchat.com^$path=/*.css,important
+@@||cdn.snapchat.com^$path=/*.js,important
+
+! === Cookie Blocking ===
+! حجب الكوكيز التتبعية
+$cookie=/_ga/
+$cookie=/_gid/
+$cookie=/_gat/
+$cookie=/_fb/
+$cookie=/_fbp/
+$cookie=/tt_/
+$cookie=/_sc/
+$cookie=/__utm/
+$cookie=/__gads/
+
+! === End of Filter ===
+! نهاية الفلتر
+
