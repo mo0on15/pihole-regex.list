@@ -1,0 +1,31 @@
+# 🛑 إعلانات – قوائم أساسية ومتقدمة (99٪ تغطية)
+https://adguardteam.github.io/AdguardFilters/filters/filter_2.txt
+https://adguardteam.github.io/AdguardFilters/filters/filter_11.txt
+https://adguardteam.github.io/AdguardFilters/filters/filter_14.txt
+
+# 🔐 تتبع وخصوصية
+https://adguardteam.github.io/AdguardFilters/filters/filter_3.txt
+https://adguardteam.github.io/AdguardFilters/filters/filter_1.txt
+https://adguardteam.github.io/AdguardFilters/filters/filter_4.txt
+
+# 💻 مكافحة التعدين
+https://adguardteam.github.io/AdguardFilters/filters/filter_17.txt
+
+# 🧠 DNS شامل (يشمل Social Media + تتبعات)
+https://adguardteam.github.io/AdguardFilters/filters/filter_15.txt
+
+# ⚙️ تحسينات إضافية
+https://adguardteam.github.io/AdguardFilters/filters/filter_16.txt
+
+# 🛡️ حماية من التصيد (phishing/malware)
+https://adguardteam.github.io/AdguardFilters/filters/filter_0.txt
+https://adguardteam.github.io/AdguardFilters/filters/filter_5.txt
+
+# ✅ استثناءات لمنع كسر بعض الخدمات
+https://adguardteam.github.io/AdguardFilters/filters/filter_18.txt
+
+# 📵 حجب خاص لوسائل التواصل الاجتماعي (Facebook, Instagram, TikTok, Snapchat)
+https://raw.githubusercontent.com/gieljnssns/Social-media-Blocklists/master/adguard-facebook.txt
+https://raw.githubusercontent.com/gieljnssns/Social-media-Blocklists/master/adguard-instagram.txt
+https://raw.githubusercontent.com/gieljnssns/Social-media-Blocklists/master/adguard-tiktok.txt
+https://raw.githubusercontent.com/gieljnssns/Social-media-Blocklists/master/adguard-snapchat.txt

@@ -1,0 +1,29 @@
+# ✅ Updated AdGuard Blocklist (2025) - Fully Working Links
+
+# 🛑 Ads
+https://filters.adtidy.org/extension/chromium/filters/2.txt         # AdGuard Base Filter
+https://filters.adtidy.org/extension/chromium/filters/11.txt        # Mobile Ads Filter
+https://filters.adtidy.org/extension/chromium/filters/14.txt        # Annoyances Filter
+
+# 🔐 Tracking & Privacy
+https://filters.adtidy.org/extension/chromium/filters/3.txt         # Tracking Protection
+https://filters.adtidy.org/extension/chromium/filters/1.txt         # Spyware Filter
+https://filters.adtidy.org/extension/chromium/filters/4.txt         # Social Media Filter
+
+# 🛡️ Phishing & Malware
+https://filters.adtidy.org/extension/chromium/filters/0.txt         # Phishing
+https://filters.adtidy.org/extension/chromium/filters/5.txt         # Malware
+
+# ⚙️ DNS & Rules
+https://filters.adtidy.org/extension/chromium/filters/15.txt        # DNS Filter
+https://filters.adtidy.org/extension/chromium/filters/16.txt        # Other Rules
+
+# ✅ Exceptions (Allowlist)
+https://filters.adtidy.org/extension/chromium/filters/18.txt        # Allowlist
+
+# 🔰 External Powerful Filters
+https://raw.githubusercontent.com/ph00lt0/blocklist/master/blocklist.txt       # ph00lt0
+https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.plus.txt  # Hagezi Pro++
+
+# ⚠️ Notes:
+# Add "exceptions" manually under Custom Filtering Rules if needed.

@@ -1,0 +1,14 @@
+# 🛑 إعلانات عامة
+||/^(.+\.)?(ads?|adserver|adservices?|advertising|sponsor(ed)?|banners?)\./
+
+# 📱 إعلانات الجوال والتطبيقات
+||/^(.+\.)?(mobileads|ads-mobile|mobads|appads|sdkads|mob-ads)\./
+
+# 🔐 تتبع وتحليلات
+||/^(.+\.)?(track(ing)?|metrics|analytics|pixel|collect|log(s)?|beacon|stat(s|istics)?)\./
+
+# 🛡️ برامج ضارة ومواقع تصيّد
+||/^(.+\.)?(malware|spyware|phishing|ransomware|trojan|virus|exploit|hacker)\./
+
+# 🎯 نطاقات إعلانية عامة ومضللة
+||/^(.+\.)?(click|popunder|redirect|offer|jump|affiliates?)\./

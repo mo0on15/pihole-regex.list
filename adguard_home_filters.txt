@@ -1,0 +1,23 @@
+# 🛑 إعلانات
+https://adguardteam.github.io/AdguardFilters/filters/filter_2.txt
+https://adguardteam.github.io/AdguardFilters/filters/filter_11.txt
+https://adguardteam.github.io/AdguardFilters/filters/filter_14.txt
+
+# 🔐 تتبع وخصوصية
+https://adguardteam.github.io/AdguardFilters/filters/filter_3.txt
+https://adguardteam.github.io/AdguardFilters/filters/filter_1.txt
+https://adguardteam.github.io/AdguardFilters/filters/filter_4.txt
+
+# 💻 مكافحة التعدين
+https://adguardteam.github.io/AdguardFilters/filters/filter_17.txt
+
+# ⚙️ تحسينات عامة
+https://adguardteam.github.io/AdguardFilters/filters/filter_15.txt
+https://adguardteam.github.io/AdguardFilters/filters/filter_16.txt
+
+# 🌍 قوائم محلية إضافية (اختياري)
+https://adguardteam.github.io/HostlistsRegistry/assets/filter_64.txt
+https://adguardteam.github.io/HostlistsRegistry/assets/filter_49.txt
+
+# ✅ استثناءات لتجنب كسر المواقع
+https://adguardteam.github.io/AdguardFilters/filters/filter_18.txt
